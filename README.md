@@ -5,7 +5,7 @@ okenizer Lab lets you explore and compare different LLM tokenizers in real time!
 and see how it gets tokenized. Perfect for AI enthusiasts, researchers, and developers optimizing for efficiency! ⚡
 
 # Application Link
--
+https://llm-tokenizer.streamlit.app/
 
 # Technologies Used
 * streamlit -- Front end development
