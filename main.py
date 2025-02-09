@@ -40,4 +40,4 @@ tokenize = st.button("Tokenize", type='primary', disabled=(not tokenizer_selecti
 if tokenize:
     with st.spinner('Tokenizing ...', show_time=True):
         t_name = tokenizer_map[tokenizer_selection]
-        show_tokens(sample_text, t_name)
+        show_tokens(input_text, t_name)
