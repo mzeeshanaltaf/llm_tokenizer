@@ -38,6 +38,6 @@ with col2:
 tokenize = st.button("Tokenize", type='primary', disabled=(not tokenizer_selection or not input_text))
 
 if tokenize:
-    with st.spinner('Tokenizing ...'):
+    with st.spinner('Tokenizing ...', show_time=True):
         t_name = tokenizer_map[tokenizer_selection]
         show_tokens(sample_text, t_name)
