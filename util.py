@@ -32,7 +32,7 @@ def show_tokens(sentence: str, tokenizer_name: str):
 
     st.subheader('Details:', divider='gray')
     token_id_str = ", ".join(map(str, token_ids)) # Convert the list to a string
-    st.write(f"Total Tokens: {len(token_ids)}")
+    st.write(f"Token Count: {len(token_ids)}")
     st.write(f"Token IDs: {token_id_str}")
 
 def display_footer():
